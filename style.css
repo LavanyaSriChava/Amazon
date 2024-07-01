@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding:0;
+    border: border-box;
+}
+.navbar{
+    height:60px;
+    background-color: black;
+    color:white;display: flex;;
+    align-items: center;
+    gap:1rem;
+justify-content: space-around;
+
+
+}
+.logo{
+    width:100px;
+    margin-right: 2rem;
+    height:50px;
+}
+.logo img{
+    width:100%;
+    height:50px;
+    padding-right: 6rem;
+    padding-top: 5px;
+}
+#one:hover{
+    color:cadetblue;
+}
+.add{
+    padding-top: 15px;
+    line-height: 19px;
+}
+.search i{
+    background-color: orange;
+    width:2rem;
+    border-top-right-radius: 05px;
+    border-bottom-right-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    padding-top: 6px;
+}
+.address{
+    align-items: center;
+    text-align:center;
+    color:grey;
+    font-size: 0.85rem;
+}
+.india{
+    font-size: 1rem;
+    display:flex;
+    gap:0.3rem;
+}
+.search select{
+    background-color: #f3f3f3;
+    text-align:center;
+    height:2rem;
+ width:50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+}
+.search input{
+    width:370px;
+    height:2rem;
+    border:none;
+    font-size: 0.8rem;
+}
+.search{
+    display:flex;
+}
+.search:hover{
+    border:2px solid orange;
+}
+span{
+    font-size: 0.7rem;
+}.dif{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+}
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    display:flex;
+    gap:6px;
+}
+.first{
+    padding-right: 10px;
+    padding-left: 6px;
+}
+.panel{
+    background-color: grey;
+    color:white;
+    height:30px;
+    font-weight: 900px;
+    display:flex;
+
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.panel p:hover{
+    color:red;
+}
+.mid{
+    gap:1.3rem;
+    display: flex;
+    width:900px;
+    font-size: 0.85rem;
+}
+.last{
+    padding-right: 6px;
+    font-size: 0.92rem;
+}
+main{
+    height:250px;
+    font-size: 0.85rem;
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+}
+.text{
+    padding-top:205px;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+.text p{
+width:100%;
+    height:25px;
+    background-color: white;
+    color:black;
+    padding-top: 0.4rem;
+align-items: center;
+    text-align: center;
+}
+.text a{
+
+
+color:#007185;}
+.shopping{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8{
+    height:280px;
+    width:23%;
+    background-color: white;
+
+    padding: 20px 0px 15px;
+    
+}
+h2{
+    text-align: center;
+}
+img{
+    height:230px;
+    padding: 5px 30px 5px;
+    width:200px;
+    justify-content: center;
+}
+#box a{
+    color:#007185;
+    align-items: center;
+    padding:0 6rem 0;
+}
+.sec{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+footer{
+    margin-top: 15px;
+}
+.one{
+    background-color: #37475a;
+    color:white;
+    height:50px;
+    padding-top: 1.4rem;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.two{
+    display:flex;
+    background-color: #222f3d;
+    height:300px;
+    color:white;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color:#DDDDDD;
+}
+ul{
+    padding-top: 15px;
+}ul p{
+    font-size: 1rem;
+}
+.three{
+    background-color: #222f3d;
+    color:white;
+    height:70px;
+    border-top: 0.5px solid white;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.copy{
+   background-color:#0f1111 ; 
+   color:white;
+   height:76px;
+   align-items: center;
+   justify-content: center;
+}
+.pages {
+    font-size: 0.7rem;
+    padding-top: 25px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.right{
+    text-align: center;
+    font-size: 0.7rem;
+    padding-top: 15px;
+
+}
